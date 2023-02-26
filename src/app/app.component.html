@@ -1,0 +1,27 @@
+<h1>Lista de video juegos</h1>
+<table class="table table-hover table-bordered table-sm">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">title</th>
+      <th scope="col">thumbnail</th>
+      <th scope="col">game_url</th>
+      <th scope="col">genre</th>
+      <th scope="col">platform</th>
+      <th scope="col">publisher</th>
+      <th scope="col">develope"</th>
+      <th scope="col">release_date</th>
+      <th scope="col">freetogame_profile_url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let persona of personas">
+      <th scope="row">1</th>
+      <td>{{persona.id}}</td>
+      <td>{{persona.title}}</td>
+      <td>{{persona.thumbnail}}</td>
+    </tr>
+    <tr>
+  </tbody>
+</table>
+
